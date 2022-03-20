@@ -3,11 +3,11 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Calculator</title>
+    <title>Kalkulator sederhana</title>
 </head>
 
 <body>
-    <form action="/codeigniter/index.php/calculator/hitung" method="POST">
+    <form action="/folder_name/index.php/calculator/hitung" method="POST">
         <input type="text" name="bilangan1" id="bilangan1" autocomplete="off" value="<?php echo (isset($bilangan1) ? $bilangan1 : 0) ?>">
         <select name="operator" id="operator">
             <option value="+" <?php echo isset($operator) && $operator == '+' ? 'selected' : '' ?>>Tambah</option>
